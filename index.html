@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Navbar -->
+  <nav id="navbar" aria-label="Main navigation">
+    <ul>
+      <li><a href="#welcome-section" aria-label="Home section">Home</a></li>
+      <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+      <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section" aria-labelledby="welcome-heading">
+    <h1 id="welcome-heading">Hi, I'm OM</h1>
+    <h2>Second Year Computer Engineering Student</h2>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <h2 id="projects-heading">Here Are Some of My Projects</h2>
+    <div class="project-container">
+      <div class="project-tile" aria-labelledby="project1-heading">
+        <h3 id="project1-heading">MY FOOD JOURNAL(Group project)</h3>
+        <p>A web app for searching recipes by ingredients or location.</p>
+        <a href="https://omm-codes.github.io/My-Food-Journal/" target="_blank" aria-label="View my food journal project">View Project</a>
+      </div>
+      <div class="project-tile" aria-labelledby="project2-heading">
+        <h3 id="project2-heading">VISTAVAULT(Group project)</h3>
+        <p>A responsive gallery built with Next.js and Pexels API integration.</p>
+        <a href="https://github.com/Omm-codes/Vistavault/tree/master" target="_blank" aria-label="View Vistavault project">View Project</a>
+      </div>
+      <div class="project-tile" aria-labelledby="project3-heading">
+        <h3 id="project3-heading">TRIBUTE-PAGE</h3>
+        <p>A Basic Tribute-Page using HTML and CSS</p>
+        <a href="https://omm-codes.github.io/Tribute-page/" target="_blank" aria-label="View Tribute-page project">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Let's Connect!</h2>
+    <p>How do you like your coffee?</p>
+    <ul>
+      <li>
+        <a href="mailto:omsanjay975@gmail.com" target="_blank" aria-label="Send me an email">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </li>
+      <li>
+        <a href="tel:+917721903888" target="_blank" aria-label="Call me">
+          <i class="fas fa-phone-alt"></i> Phone
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Omm-codes" target="_blank" aria-label="Visit my GitHub profile">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/om-chavan003/" target="_blank" aria-label="Visit my LinkedIn profile">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Om Chavan</p>
+  </footer>
+
+</body>
+</html>
