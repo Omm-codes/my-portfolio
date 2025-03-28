@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link"></a>
+
+  <!-- Enhanced Navbar -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="#welcome-section">OM'S PORTFOLIO</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#welcome-section" aria-label="Home section"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#projects" aria-label="Projects section"><i class="fas fa-code"></i> Projects</a></li>
+        <li><a href="#contact" aria-label="Contact section"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section" aria-labelledby="welcome-heading">
+    <h1 id="welcome-heading">Hi, I'm OM</h1>
+    <h2>Second Year Computer Engineering Student</h2>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <div class="section-bg"></div>
+    <h2 id="projects-heading">My Projects</h2>
+    <div class="project-container">
+      <div class="project-tile" aria-labelledby="project1-heading">
+        <div class="project-image">
+          <img src="images/MFJ.jpg" alt="Food Journal project screenshot">
+        </div>
+        <div class="project-content">
+          <span class="project-tag">Group Project</span>
+          <h3 id="project1-heading">MY FOOD JOURNAL</h3>
+          <p>A web app for searching recipes by ingredients or location.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://omm-codes.github.io/My-Food-Journal/" target="_blank" aria-label="View my food journal project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/Omm-codes/My-Food-Journal" target="_blank" aria-label="Food Journal GitHub repo"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-tile" aria-labelledby="project2-heading">
+        <div class="project-image">
+          <img src="images/VISTA.jpg" alt="Vistavault project screenshot">
+        </div>
+        <div class="project-content">
+          <span class="project-tag">Group Project</span>
+          <h3 id="project2-heading">VISTAVAULT</h3>
+          <p>A responsive gallery built with Next.js and Pexels API integration.</p>
+          <div class="project-tech">
+            <span>Next.js</span>
+            <span>React</span>
+            <span>API</span>
+          </div>
+          <div class="project-links">
+            <a href="https://vista-vault-19mxk1rvt-omm-codes-projects.vercel.app" target="_blank" aria-label="View Tribute-page project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/Omm-codes/VISTA-VAULT" target="_blank" aria-label="View Vistavault project"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-tile" aria-labelledby="project3-heading">
+        <div class="project-image">
+          <img src="images/FEAST.jpg" alt="feastflow project screenshot">
+        </div>
+        <div class="project-content">
+          <span class="project-tag">Group Project</span>
+          <h3 id="project2-heading">FEASTFLOW</h3>
+          <p>A responsive canteen management system for college canteen.</p>
+          <div class="project-tech">
+            <span>node.js</span>
+            <span>React</span>
+            <span>API</span>
+            <span>MYSQL</span>
+            <span>Express</span>
+          </div>
+          <div class="project-links">
+            <a href="https://omm-codes.github.io/Quickbites/" target="_blank" aria-label="View Tribute-page project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/Omm-codes/FEASTFLOW" target="_blank" aria-label="View Vistavault project"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-tile" aria-labelledby="project4-heading">
+        <div class="project-image">
+          <img src="images/TRIBUTE.jpg" alt="Tribute page project screenshot">
+        </div>
+        <div class="project-content">
+          <span class="project-tag">Solo Project</span>
+          <h3 id="project3-heading">TRIBUTE-PAGE</h3>
+          <p>A Basic Tribute-Page using HTML and CSS</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://omm-codes.github.io/Tribute-page/" target="_blank" aria-label="View Tribute-page project"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/Omm-codes/Tribute-page" target="_blank" aria-label="Tribute Page GitHub repo"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Let's Connect!</h2>
+    <p>How do you like your coffee?</p>
+    <ul>
+      <li>
+        <a href="mailto:omsanjay975@gmail.com" target="_blank" aria-label="Send me an email">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </li>
+      <li>
+        <a href="tel:+917721903888" target="_blank" aria-label="Call me">
+          <i class="fas fa-phone-alt"></i> Phone
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Omm-codes" target="_blank" aria-label="Visit my GitHub profile">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/om-chavan003/" target="_blank" aria-label="Visit my LinkedIn profile">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Om Chavan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
